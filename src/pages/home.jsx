@@ -1,6 +1,6 @@
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import Works from "../components/Works";
+import Hero from "../sections/Hero";
+import Navbar from "../sections/Navbar";
+import Works from "../sections/Works";
 
 function HomePage() {
   return (
