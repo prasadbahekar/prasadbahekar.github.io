@@ -5,6 +5,10 @@
   themes: dark --default;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* ═══════════════════════════════════════════
    LIGHT — INDIGO / VIOLET / BLUE
