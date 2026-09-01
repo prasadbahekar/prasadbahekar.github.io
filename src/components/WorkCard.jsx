@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 function WorkCard({ cardData }) {
 
   return (
-    <div className='max-w-4xl mx-4 sm:mx-12 p-1 sm:p-2 border border-white/15 rounded-3xl'>
+    <div className='max-w-208 mx-4 sm:mx-12 p-1 sm:p-2 border border-white/15 rounded-3xl'>
       <div className={'bg-linear-to-b sm:from-zinc-800 sm:via-zinc-950 sm:to-black hover:to-black w-full overflow-hidden group border border-white/20 hover:border-white/50 p-6 sm:p-8 cursor-pointer rounded-2xl bg-gray-500/10 transition duration-500 ' + cardData.color}>
         <div className='flex justify-between items-top -mb-1'>
           <h2 className='font-inter text-lg sm:text-xl sm:font-semibold mb-2'>{cardData.title}</h2>
