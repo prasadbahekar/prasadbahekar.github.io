@@ -3,10 +3,7 @@
 <h3 align="center">
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](YOUR_LIVE_DEMO_URL)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Made With](https://img.shields.io/badge/Made%20With-React-61DAFB?style=for-the-badge)](https://react.dev/)
-
-> **My personal portfolio website**, built to showcase my projects, skills, and the things I am currently working on.
 
 </h3>
 
@@ -14,77 +11,49 @@
 
 ## About
 
-This is my personal portfolio website where I keep some of my work, information about myself, and the technologies I work with.
+This is my personal portfolio website where I have added my projects, skills and a little bit about myself.
 
-The website is intentionally kept simple, with a dark modern interface, subtle visual elements, and a focus on presenting the content without unnecessary distractions.
+I made it while learning React and frontend development.
 
 ## Pages
 
-The website currently has two main pages:
-
 ### Work
 
-The Work page is focused on the projects I have built.
-
-* **Hero** – Introduction to my work and projects
-* **Projects** – A collection of projects with their details
-* **Footer** – Navigation and additional information
+* Hero
+* Projects
+* Footer
 
 ### Info
 
-The Info page contains information about me and what I am currently learning and building.
-
-* **Hero** – Short introduction
-* **About Me** – A little more about me
-* **Skills** – Technologies and tools I work with
-* **Ongoing Project** – What I am currently working on
-* **Footer** – Navigation and additional information
-
----
+* Hero
+* About Me
+* Skills
+* Ongoing Project
+* Footer
 
 ## Tech Stack
 
-The technologies used to build the website.
-
-| Category            | Technology                 |
-| ------------------- | -------------------------- |
-| **Framework**       | React                      |
-| **Build Tool**      | Vite                       |
-| **Languages**       | HTML, CSS, JavaScript, JSX |
-| **Styling**         | Tailwind CSS               |
-| **Components**      | DaisyUI                    |
-| **Package Manager** | npm                        |
-
----
+* React
+* Vite
+* JavaScript / JSX
+* HTML & CSS
+* Tailwind CSS
+* DaisyUI
 
 ## Design
 
-The website uses a dark UI with modern visual style.
-These are some features:
+I went for a simple dark design with some modern UI elements, animations and responsive layouts.
 
-* Dark colour palette
-* Responsive layout
-* Clean typography
-* Subtle borders and background textures
-* Rounded UI elements
+I also tried to keep the website clean instead of adding too many things.
 
----
+## AI Usage
+ChatGPT has been used in this project mildly mainly for Content Generation, Creating Helper Functions, and Style this readme.
 
 ## Future Plans
 
-The portfolio will continue to change as I build more projects and learn new technologies.
-
-Some things I may add in the future:
-
-* [ ] More projects
-* [ ] More detailed project pages
-* [ ] More information about my development journey
-
----
-
-## License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+* [ ] Add more projects
+* [ ] Improve the website as I learn more
+* [ ] Add more details about my projects
 
 ---
 
