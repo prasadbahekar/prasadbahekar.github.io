@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Footer() {
+function Footer({ setCurrentPage }) {
   const [copied, setCopied] = useState(false);
 
   const copyText = async () => {
@@ -21,8 +21,8 @@ function Footer() {
           <div className='flex gap-24 sm:gap-32 mb-16'>
             <div className='flex flex-col gap-6'>
               <h3 className='font-inter text-xs font-semibold text-base-content/50'>MAIN</h3>
-              <a className='hover:underline transition font-semibold font-bricolage' href="">Work</a>
-              <a className='hover:underline transition font-semibold font-bricolage' href="">Info</a>
+              <button className='hover:underline text-left transition font-semibold font-bricolage' onClick={() => setCurrentPage("Work")} >Work</button>
+              <button className='hover:underline text-left transition font-semibold font-bricolage' onClick={() => setCurrentPage("Info")} >Info</button>
             </div>
             <div className='flex flex-col gap-6'>
               <h3 className='font-inter text-xs font-semibold text-base-content/50'>CONTACT</h3>

@@ -1,9 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import React, { useState } from "react";
 
-function Navbar() {
-  const [active, setActive] = useState("Work");
-
+function Navbar({ currentPage, setCurrentPage }) {
   const items = ["Work", "Info"];
 
   return (
@@ -19,8 +17,8 @@ function Navbar() {
     <nav className="fixed top-8 left-4 sm:left-1/2 sm:-translate-x-1/2 z-50">
       <div className="flex items-center rounded-full border border-white/10 bg-white/4 hover:bg-white/10 transition p-1 sm:p-1.5 backdrop-blur-xl">
         {items.map((item) => (
-          <button key={item} onClick={() => setActive(item)} 
-          className={`relative rounded-full px-6 py-2.5 text-sm font-semibold transition-all duration-300 ${active === item ? "bg-white/10 text-white/80 shadow-sm" : "text-white/50 hover:text-white/70"}`}
+          <button key={item} onClick={() => setCurrentPage(item)} 
+          className={`relative rounded-full px-6 py-2.5 text-sm font-semibold transition-all duration-300 ${currentPage === item ? "bg-white/10 text-white/80 shadow-sm" : "text-white/50 hover:text-white/70"}`}
           >{item}</button>
         ))}
       </div>
