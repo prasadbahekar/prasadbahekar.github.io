@@ -7,49 +7,50 @@
 
 </h3>
 
----
+
 
 ## About
 
-This is my personal portfolio website where I have added my projects, skills and a little bit about myself.
+This is my personal portfolio website where I showcase my projects, skills, current work and a little bit about myself.
 
-I made it while learning React and frontend development.
+I built this website while learning React and frontend development. The website is simple and modern.
 
-## Pages
 
-### Work
+## Work Page
+The Work page focuses on my projects and the work I have created. It includes:
+- Hero section
+- Projects section
+- Project cards
+- Footer
 
-* Hero
-* Projects
-* Footer
+## Info Page
 
-### Info
-
-* Hero
-* About Me
-* Skills
-* Ongoing Project
-* Footer
+The Info page contains information about me and my current development journey. It includes:
+- Hero section
+- About Me
+- Skills
+- Ongoing Project
+- Footer
 
 ## Tech Stack
 
-* React
-* Vite
-* JavaScript / JSX
-* HTML & CSS
-* Tailwind CSS
-* DaisyUI
+- React
+- Vite
+- JSX
+- HTML & CSS
+- Tailwind CSS
+- DaisyUI
 
-## Design
+### Design
 
-I went for a simple dark design with some modern UI elements, animations and responsive layouts.
-
+The website a simple dark design with some modern UI elements, animations and responsive layouts.
 I also tried to keep the website clean instead of adding too many things.
+The website is responsive and can be viewed on any screen.
 
-## AI Usage
+### AI Usage
 ChatGPT has been used in this project mildly mainly for Content Generation, Creating Helper Functions, and Style this readme.
 
-## Future Plans
+### Future Plans
 
 * [ ] Add more projects
 * [ ] Improve the website as I learn more
